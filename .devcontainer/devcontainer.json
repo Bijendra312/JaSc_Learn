@@ -10,6 +10,22 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
+    "customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight"
+			],
+			"settings": {
+				"editor.fontSize": 32,
+				"terminal.integrated.fontSize": 24,
+				"editor.wordWrap": "on"
+			}
+			
+		}
+		
+	 }
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
