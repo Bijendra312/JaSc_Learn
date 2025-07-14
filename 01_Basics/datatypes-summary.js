@@ -26,6 +26,21 @@ const greet = function() { // Function
   console.log('Hello!');
 };
 
-console.log(typeof heroes); // "object"
-console.log(typeof user); // "object"   
-console.log(typeof greet); // "function"
+// console.log(typeof heroes); // "object"
+// console.log(typeof user); // "object"   
+// console.log(typeof greet); // "function"
+
+let myYoutubename = "bijendradotcom"
+let anothername = myYoutubename;
+anothername = "bijendra";
+// console.log(myYoutubename); // "bijendradotcom"
+// console.log(anothername); // "bijendra"
+
+let userOne = {
+  email: "bijendradotcom",
+  upiId: "bijendra@upi"
+};
+let userTwo = userOne;
+userTwo.email = "hiteshchoudhary.com";
+console.log(userOne.email); // "hiteshchoudhary.com"
+console.log(userTwo.email); // "hiteshchoudhary.com"
