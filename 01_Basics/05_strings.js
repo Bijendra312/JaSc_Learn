@@ -26,4 +26,14 @@ const gameName = new String("Cricket"); // String Object
 
 let sentence = "Apples are sweet. I love apples!";
 let result = sentence.replace(/apples/gi, "mangoes");
-console.log(result); // "Mangoes are sweet. I love mangoes!"
+// console.log(result); // "mangoes are sweet. I love mangoes!"
+// console.log(name.trim()); // "Bijendra Saha"
+// console.log(name.match(/a/gi)); // ["a", "a", "a"]
+// console.log(name.match(/a/g)); // ["a", "a", "a"]
+// console.log(name.search(/Saha/));
+// console.log(name.localeCompare("Bijendra Singh"));
+// console.log("ä".localeCompare("z", "de")); // German locale: ä comes before z → negative
+// console.log("ä".localeCompare("z", "sv")); // Swedish locale: ä comes after z → positive
+// console.log("geeks".localeCompare("GEEKS", undefined, { sensitivity: "base" }));// 0
+console.log("2".localeCompare("10"));// 1
+console.log("2".localeCompare("10", undefined, { numeric: true }));// -1
