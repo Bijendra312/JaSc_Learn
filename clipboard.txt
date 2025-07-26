@@ -1,1 +1,1 @@
-node 01_Basics/05_strings.js
+node 01_Basics/06_num_and_math.js
